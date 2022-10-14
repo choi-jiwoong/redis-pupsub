@@ -40,7 +40,4 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-<<<<<<< HEAD
-=======
 targetCompatibility = JavaVersion.VERSION_17
->>>>>>> 9faf0ad69ca4abed73f474fcee913c26b269bf2b
