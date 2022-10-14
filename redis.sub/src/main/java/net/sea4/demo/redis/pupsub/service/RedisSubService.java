@@ -19,6 +19,7 @@ public class RedisSubService implements MessageListener {
 
 	@Override
 	public void onMessage(Message message, byte[] pattern) {
+<<<<<<< HEAD
 //		try {
 //			ChatMessage chatMessage = mapper.readValue(message.getBody(), ChatMessage.class);
 //			messageList.add(message.toString());
@@ -29,5 +30,8 @@ public class RedisSubService implements MessageListener {
 //		} catch (IOException e) {
 //			e.printStackTrace();
 //		}
+=======
+
+>>>>>>> 9faf0ad69ca4abed73f474fcee913c26b269bf2b
 	}
 }
